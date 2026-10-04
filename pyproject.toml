@@ -6,10 +6,11 @@ readme = "README.md"
 authors = [
     { name = "Balasubramanian Duraiswamy", email = "dbala2007@gmail.com" }
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.12"
 dependencies = [
     "kokoro==0.9.4",
     "misaki[en]>=0.9.4",
+    "piper-tts>=1.8.0",
     "soundfile>=0.14.0",
     "streamlit>=1.65.0",
     "torchvision>=0.29.1",

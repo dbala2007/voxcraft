@@ -1,15 +1,18 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-*.pyc
-.streamlit/
-
 # Virtual environments
-.venv
+.venv/
+.venv-tamil/
+.venv-piper/
 
-# Output
+# Generated audio
 outputs/
+*.wav
+
+# Local AI models
+models/
+
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
